@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(9, 12, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(9, 12, 20); */
+    max-width: 75ch;
+}
+
+#card{
+    background: rgb(109, 115, 124);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33ch;
+    margin-bottom: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+}
+h1{
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-top: solid 0.5px #00f7ff;
+    border-bottom: solid 0.5px #00f7ff;
+    padding: 1rem 0;
+    margin: 1rem;
+}
+input{
+    height: 2rem;
+    width: 28ch;
+    border-radius: 5px;
+    margin: 0.5rem 0 1rem 0;
+}
+input::placeholder{
+    text-align: center;
+}
+h2{
+    margin: 1rem 0 0 0;
+}
+label{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+select{
+    height: 2rem;
+    width: 28ch;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.option-placeholder{
+    color: gray
+}
+button{
+    height: 2rem;
+    width: 28ch;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-color: #00d9ff;
+    color: #fff;
+    font-weight: bold;
+}
+button:hover{
+    border: solid 2px #167bff;
+}
+#valor{
+    margin-bottom: 1.5rem;
+}
+
+/* font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
